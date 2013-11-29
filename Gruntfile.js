@@ -100,8 +100,8 @@ module.exports = function(grunt) {
         dest: './app/assets/app.css',
         src: [
           'app/styles/reset.css',
-          'bower_components/components-font-awesome/css/font-awesome.css',
-          'bower_components/bootstrap.css/css/bootstrap.css',
+          'app/bower_components/components-font-awesome/css/font-awesome.css',
+          'app/bower_components/bootstrap.css/css/bootstrap.css',
           'app/styles/app.css'
         ]
       },
@@ -111,9 +111,9 @@ module.exports = function(grunt) {
         },
         dest: './app/assets/app.js',
         src: [
-          'bower_components/angular/angular.js',
-          'bower_components/angular-route/angular-route.js',
-          'bower_components/angularjs-scope.safeapply/src/Scope.SafeApply.js',
+          'app/bower_components/angular/angular.js',
+          'app/bower_components/angular-route/angular-route.js',
+          'app/bower_components/angularjs-scope.safeapply/src/Scope.SafeApply.js',
           'app/scripts/lib/router.js',
           'app/scripts/config/config.js',
           'app/scripts/services/**/*.js',
